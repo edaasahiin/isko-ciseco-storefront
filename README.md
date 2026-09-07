@@ -1,36 +1,79 @@
-# ISKO Ciseco Storefront
+# ISKO Hospitality Storefront Concept
 
-An original React/Vite hospitality storefront concept inspired by the general
-structure of modern ecommerce templates. It is not a copy of Ciseco source code.
+A responsive hospitality-focused e-commerce storefront concept developed during my internship.
 
-## Run
+## About the Project
 
-```powershell
-npm.cmd install
-npm.cmd run dev
-```
+This project presents an alternative frontend concept for a hospitality-oriented textile storefront.
 
-## Build
+It was developed with React and Vite and focuses on responsive design, reusable components, product discovery, and modern e-commerce interaction patterns.
 
-```powershell
-npm.cmd run build
-```
+## Features
 
-## Replace placeholder images
+- Responsive header and navigation
+- Hero slider
+- Category sections
+- Product carousel
+- Product listing page
+- Product detail page
+- Product search panel
+- Shopping cart drawer
+- Hospitality collections
+- Colour collection
+- Newsletter and enquiry sections
+- Responsive user interface
 
-The project includes placeholder images so it runs immediately.
+## Technologies
 
-Replace the files inside `src/assets/` with the real ISKO images using the same
-file names:
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 
-- hero-bar.png
-- feature-neutral.png
-- industry-hotel.png
-- industry-restaurant.png
-- industry-cruise.png
-- colors.png
-- product-napkin.png
-- product-coaster.png
-- product-placemat.png
+## Project Structure
 
-No code changes are required if the file names stay the same.
+```text
+src/
+├── components/
+├── context/
+├── data/
+├── pages/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── styles.css
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/edaasahiin/isko-ciseco-storefront.git
+
+Navigate to the project directory:
+
+cd isko-ciseco-storefront
+
+Install the dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+Purpose
+
+This project was developed during my internship as a frontend design and development study.
+
+The main goal was to explore a modern hospitality-oriented storefront structure while practicing responsive web design, reusable React components, routing, state management, product presentation, search, and cart interactions.
+
+Disclaimer
+
+This repository is published for educational and portfolio purposes.
+
+Any brand names, trademarks, or product references belong to their respective owners. This project is an independent frontend concept and is not an official production website.
+
+Author
+
+Eda Şahin
+Computer Engineering Student
